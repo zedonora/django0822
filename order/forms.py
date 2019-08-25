@@ -1,7 +1,5 @@
 from django import forms
 from .models import Order
-from product.models import Product
-from fcuser.models import Fcuser
 
 class RegisterForm(forms.Form):
 
